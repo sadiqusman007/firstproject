@@ -37,13 +37,15 @@ const Footer = (props) => {
             <a href="tel:+971586747123">{props.icons}<span>+971 58 67 47 123</span></a>
             <a href="mailto:info@homecomfort.com"><span>info@homecomfort.com</span></a>
           <form className='form_footer' action="">
-            <input type="text" />
+            <input type="text" placeholder="Enter Email"/>
             <input type="submit" value="Send" />
           </form>
           </div>
         </div>
+        <hr/> 
+        <p className="footer_copyright">@Copyrights reserved by HomeComfort</p>
         </div>
-    </footer>
+      </footer>
 
     </>
   )
