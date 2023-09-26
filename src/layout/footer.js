@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from"react-router-dom"
 
 const Footer = (props) => {
   return (
@@ -20,9 +21,9 @@ const Footer = (props) => {
           </div>
           <nav className="footer_home">
             <ul>
-              <li><a href="javascript:void(0);">Home</a></li>
-              <li><a href="javascript:void(0);">Services</a></li>
-              <li><a href="javascript:void(0);">Contact Us</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/contact-us">Contact Us</Link></li>
             </ul>
           </nav>
           <nav className="footer_home">

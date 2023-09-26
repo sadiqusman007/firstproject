@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const Header = (props) => {
   return (
     <header>
@@ -8,10 +8,10 @@ const Header = (props) => {
         <div className="logo"><img src={props.logo} alt="" /></div>
         <nav>
           <ul>
-            <li><a href="javascript:void(0);">Home</a></li>
-            <li><a href="javascript:void(0);">Services</a></li>
-            <li><a href="javascript:void(0);">Contact Us</a></li>
-            <li><a href="tel:+971586747123">{props.icons}<span>+971 58 67 47 123</span></a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/services">Sevices</Link></li>
+            <li><Link to="/contact-us">Contact Us</Link></li>
+            <li><a hrf="tel:+971586747123">{props.icons} <span>+971 58 67 47 123</span></a></li>
           </ul>
         </nav>
         </div>
