@@ -15,6 +15,7 @@
 }
 
 .banner_left{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap:25px;
@@ -87,7 +88,6 @@ h1 span{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 300px;
-
 }
 
 .banner_img img{
@@ -128,4 +128,183 @@ h1 span{
 .after_banner_inner h2{
     font-size:24px;
     font-weight:600;
+}
+
+.whoweare_grid{
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap:25px;
+}
+
+.whoweare_img{ 
+    width:375px;
+    float:left;
+    background-image:url(..//..//images/home/whoweare/bg_whoweare.svg);
+}
+
+.whoweare_img img{
+    width:100%;
+    border-radius:183px;
+}
+
+.whoweare_right{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+    padding: 0px 50px;
+}
+
+.whoweare_right h3{
+    color:#1E1E1E;
+    font-size:20px;
+    font-weight:400;
+}
+
+h3 span{
+    color:#058B8C;
+    font-size:20px;
+    font-weight:500;
+}    
+
+.whoweare_right p{
+    color:#1E1E1E;
+    font-size:18px;
+    font-weight:400;
+    width:692px;
+    height:100px;
+}
+
+.companyauthority{
+    width:100%;
+    margin:auto;
+    background-color:#058B8C;
+}
+
+.companyauthority_grid{
+    width:100%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+}
+
+.companyauthority_left h4{
+    color:#ffffff;
+    font-size:60px;
+    font-weight:400;
+}
+
+h4 span{
+    font-weight:700;
+}
+
+.companyauthority_left p{
+    color:#ffffff;
+    font-size:18px;
+    font-weight:400;
+    width:692px;
+    height:130px;
+}
+    
+.compauth_img{
+    width:300px;
+    height:200px;
+    float:left;
+    background-image: url('../../images/home/banner/bg_banner_right.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+}
+
+.compauth_img img{
+    width:100%;
+    border-radius:145px;
+}
+
+.ourclients_top h3{
+    color:#1E1E1E;
+    text-align:center;
+    font-size:60px;
+    font-weight:400;
+}
+
+.ourclients_top h3 span{
+    color:#058B8C;
+    text-align:center;
+    font-size:60px;
+    font-weight:700;
+}
+
+.ourclients_top p{
+    color:#1E1E1E;
+    text-align:center;
+    font-size:10px;
+    font-weight:400;
+    line-height:20px;
+}
+
+.ourclients_inner_grid{
+    width:100%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+    padding: 25px 0px;   
+}
+
+.ourclients_inner_grid_box{
+    width:400px;
+    height:260px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    padding-top:30px;
+    padding-left:30px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.ourclients_inner_grid_box{
+    display:grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap:15px;
+}
+
+.ourclients_inner_grid_box img{
+    width:90px;
+    height:90px;
+}
+
+.client_name h5{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px; /* 136.364% */
+    
+}
+
+.client_star{
+    display:flex;
+}
+
+.client_star h4{
+    color: #1E1E1E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 45px; 
+}
+
+.client_star img{
+    height:20px;
+    width:20px;
+    margin-top: 11px;
+    margin-left: 25px;
+}
+
+.client_msg{
+    color: #1E1E1E;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px; 
 }
