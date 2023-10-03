@@ -159,22 +159,20 @@ h1 span{
 
 .whoweare_right h3{
     color:#1E1E1E;
-    font-size:20px;
-    font-weight:400;
+    font-size:40px;
+    font-weight:200;
 }
 
-h3 span{
+.whoweare_right h3 span{
     color:#058B8C;
-    font-size:20px;
+    font-size:40px;
     font-weight:500;
 }    
 
 .whoweare_right p{
     color:#1E1E1E;
-    font-size:18px;
-    font-weight:400;
-    width:692px;
-    height:100px;
+    font-size:16px;
+    font-weight:300;
 }
 
 .companyauthority{
@@ -193,18 +191,19 @@ h3 span{
 
 .companyauthority_left h4{
     color:#ffffff;
-    font-size:60px;
-    font-weight:400;
+    font-size:44px;
+    font-weight:200;
 }
 
-h4 span{
-    font-weight:700;
+.companyauthority_left h4 span{
+    font-weight:500;
 }
 
 .companyauthority_left p{
     color:#ffffff;
     font-size:18px;
     font-weight:400;
+    margin-top:12px;
     width:692px;
     height:130px;
 }
@@ -274,6 +273,7 @@ h4 span{
 .ourclients_inner_grid_box img{
     width:90px;
     height:90px;
+    
 }
 
 .client_name h5{

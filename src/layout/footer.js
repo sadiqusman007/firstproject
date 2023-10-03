@@ -28,10 +28,10 @@ const Footer = (props) => {
           </nav>
           <nav className="footer_home">
           <ul>
-            <li><a href="javascript:void(0);">Facebook</a></li>
-            <li><a href="javascript:void(0);">Twitter</a></li>
-            <li><a href="javascript:void(0);">Linkedin</a></li>
-            <li><a href="javascript:void(0);">Instagram</a></li>
+            <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="http://www.twitter.com/" target="_blanks">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+            <li><a href="http://www.instagram.com/" target="_blank">Instagram</a></li>
           </ul>
           </nav>
           <div className="footer_contact_us">
