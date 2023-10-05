@@ -178,7 +178,6 @@ const HomePage = () => {
           
         </div>
       </section>
-      
     </Layout>
   )
 }
