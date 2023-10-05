@@ -114,8 +114,7 @@ const ServicePage = () => {
                     <h2>Energy Efficiency</h2>
                     <p>Regular AC servicing maintains the effectiveness of your AC, ensuring all mechanical components are workingoptimally whilst also getting obviate dust and germs.</p>
                 </div>
-            </div>Regular AC services enable us to identify any potential problems early before they will negatively impact the safe and effective running of your unit.
-
+            </div>
         </div>
       </section>
     </Layout>
