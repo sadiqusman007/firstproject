@@ -91,7 +91,7 @@ const ServicePage = () => {
           </div>
       </div>
       </section>
-      <section>
+      <section className="Our_Benifits">
         <div className="page_width">
             <div className="ourbenifits">
                 <h2>Our <span>Benifits</span></h2>
@@ -107,16 +107,15 @@ const ServicePage = () => {
                 <div className="ourbenifits_inner">
                     <div className="ourbenifits_img"><img src={eneEffImg} alt="" /></div>
                     <h2>Reliability</h2>
-                    <p>Regular AC servicing maintains the effectiveness of your AC, ensuring all mechanical components are workingoptimally whilst also getting obviate dust and germs
-                    </p>
+                    <p>Regular AC services enable us to identify any potential problems early before they will negatively impact the safe and effective running of your unit.</p>
                 </div>
                 <div className="ourbenifits_inner">
                     <div className="ourbenifits_img"><img src={reliAbilImg} alt="" /></div>
                     <h2>Energy Efficiency</h2>
-                    <p>Regular AC servicing maintains the effectiveness of your AC, ensuring all mechanical components are workingoptimally whilst also getting obviate dust and germs
-                    </p>
+                    <p>Regular AC servicing maintains the effectiveness of your AC, ensuring all mechanical components are workingoptimally whilst also getting obviate dust and germs.</p>
                 </div>
-            </div>
+            </div>Regular AC services enable us to identify any potential problems early before they will negatively impact the safe and effective running of your unit.
+
         </div>
       </section>
     </Layout>
