@@ -28,7 +28,7 @@ const ServicePage = () => {
         <section className="service_contctus_section">
             <div className="page_width">
                 <div className="get50p">
-                    <h3>Get 50% off</h3>
+                    <h3>Get 50% off "Under Process" </h3>
                 </div>
                 <div className="service_contactus">
                     <form className="form_contactus" method="">
