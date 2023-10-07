@@ -68,12 +68,13 @@
 }
 
 .get50p{
-    font-size:30px;
-    font-weight:700;
-    color:#7BFEFF;
-    padding:20px 420px;
-    text-align: center;
-}
+     text-align: center;
+ }
+
+.sform_contactus{
+    width:100%;
+   
+} 
 
 .providedsolution_grid_top{
     width:100%;
