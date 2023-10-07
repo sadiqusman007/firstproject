@@ -6,6 +6,7 @@ import compAuthImg from "..//../images/home/companyauthority/compauth.svg"
 import impCoolImg from "..//../images/service/ourbenifits/improvedcooling.svg"
 import eneEffImg from "..//../images/service/ourbenifits/energyefficiency.svg"
 import reliAbilImg from "..//../images/service/ourbenifits/reliability.svg"
+import entNameImg from "../../images/service/contactus/Enter Name.svg"
 import './style.css'
 
 const ServicePage = () => {
@@ -49,16 +50,6 @@ const ServicePage = () => {
                 <path d="M325.778 43C325.338 43 324.978 42.86 324.698 42.58C324.418 42.26 324.278 41.9 324.278 41.5V2.5C324.278 2.05999 324.418 1.69999 324.698 1.42C324.978 1.13999 325.338 0.999993 325.778 0.999993H353.378C353.818 0.999993 354.178 1.13999 354.458 1.42C354.738 1.69999 354.878 2.05999 354.878 2.5V8.56C354.878 8.99999 354.738 9.35999 354.458 9.63999C354.178 9.91999 353.818 10.06 353.378 10.06H334.838V18.88H352.178C352.618 18.88 352.978 19.04 353.258 19.36C353.538 19.64 353.678 20 353.678 20.44V26.44C353.678 26.84 353.538 27.2 353.258 27.52C352.978 27.8 352.618 27.94 352.178 27.94H334.838V41.5C334.838 41.9 334.698 42.26 334.418 42.58C334.138 42.86 333.778 43 333.338 43H325.778Z" fill="#7BFEFF"/>
                 </svg></h3>
                 </div>
-                <form action=""></form>
-                
-                    
-                    
-                    
-                    
-                    
-
-                
-                
                 
             </div>
         </section>
