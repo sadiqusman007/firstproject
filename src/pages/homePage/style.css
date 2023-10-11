@@ -130,181 +130,321 @@ h1 span{
     font-weight:600;
 }
 
-.whoweare_grid{
+/*Expolore components */
+.expolore_components{
+    padding: 10px 10px;
+}
+
+.expolore_header h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.expolore_header h2 span{
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.expolore_services{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:16px;
+
+}
+
+.service_card{
     width:100%;
-    margin:auto;
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap:25px;
+    height:350px;
+    border-radius: 30px;
+    position:relative;
 }
 
-.whoweare_img{ 
-    width:375px;
-    float:left;
-    background-image:url(..//..//images/home/whoweare/bg_whoweare.svg);
-}
-
-.whoweare_img img{
+.service_card img{
     width:100%;
-    border-radius:183px;
+    height:100%;
+    object-fit: cover;
+    border-radius:30px;
 }
 
-.whoweare_right{
-    margin-top:60px;
+.service_card .overlay{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%);
     display: flex;
-    flex-direction: column;
-    gap:17px;
-    padding: 0px 50px;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.whoweare_right h3{
-    color:#1E1E1E;
-    font-size:40px;
-    font-weight:200;
+.service_card .overlay h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    margin-bottom: 1rem;
 }
 
-.whoweare_right h3 span{
-    color:#058B8C;
-    font-size:40px;
-    font-weight:500;
-}    
-
-.whoweare_right p{
-    color:#1E1E1E;
-    font-size:16px;
-    font-weight:300;
+.service_card .overlay button{
+    border-radius: 48px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px 20px;
+    display: none;
 }
 
-.companyauthority{
-    width:100%;
-    margin:auto;
-    background-color:#058B8C;
+/*over lay effect */
+
+.service_card .overlay:hover{
+    background: rgba(30, 30, 30, 0.6);
+    border-radius: 30px;
+    justify-content: center;
 }
 
-.companyauthority_grid{
-    width:100%;
-    margin:auto;
+.service_card .overlay:hover h2{
+    color:#ffffff;
+ }
+
+ .service_card .overlay:hover button{
+    display: block;
+ }
+
+/*who are we */
+
+.title h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top: 74px;
+}
+
+.title h2 span{
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+
+}
+
+.whowe_are{
+    padding: 2rem 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:25px;
 }
 
-.companyauthority_left h4{
-    color:#ffffff;
-    font-size:44px;
-    font-weight:200;
-}
-
-.companyauthority_left h4 span{
-    font-weight:500;
-}
-
-.companyauthority_left p{
-    color:#ffffff;
-    font-size:18px;
-    font-weight:400;
-    margin-top:12px;
-    width:692px;
-    height:130px;
-}
-    
-.compauth_img{
-    width:300px;
-    height:200px;
-    float:left;
-    background-image: url('../../images/home/banner/bg_banner_right.svg');
+.whowe_are .left_hand{
+    padding: 3rem;
+    width:100%;
+    background-image: url("../../images/home/whoweare/bg_whoweare.svg");
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 300px;
+    background-position: right center;
 }
 
-.compauth_img img{
+.whowe_are .left_hand img{
     width:100%;
-    border-radius:145px;
+    border-radius:50%;
 }
 
-.ourclients_top h3{
-    color:#1E1E1E;
-    text-align:center;
-    font-size:60px;
-    font-weight:400;
-}
-
-.ourclients_top h3 span{
-    color:#058B8C;
-    text-align:center;
-    font-size:60px;
-    font-weight:700;
-}
-
-.ourclients_top p{
-    color:#1E1E1E;
-    text-align:center;
-    font-size:10px;
-    font-weight:400;
-    line-height:20px;
-}
-
-.ourclients_inner_grid{
+.whowe_are .right_hand {
     width:100%;
-    margin:auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:25px;
-    padding: 25px 0px;   
+    padding: 2rem;
 }
 
-.ourclients_inner_grid_box{
-    width:400px;
-    height:260px;
-    border-radius: 40px;
-    background-color: #ffffff;
-    padding-top:30px;
-    padding-left:30px;
-    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
-}
-
-.ourclients_inner_grid_box{
-    display:grid;
-    grid-template-columns: 0.2fr 1fr;
-    gap:15px;
-}
-
-.ourclients_inner_grid_box img{
-    width:90px;
-    height:90px;
-    
-}
-
-.client_name h5{
+.whowe_are .right_hand .right_hand_text p{
     color: #1E1E1E;
-    font-size: 20px;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 194.444% */
+    margin-top:34px;
+}
+
+.lefthand_side{
+    background-color: #058B8C;
+    width:100%;
+}
+
+.lefthand_side h2{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top:24px
+}
+
+.whoweare{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #058B8C;
+    width:1296px;
+    height:640px;
+}
+
+.whoweare .whoweare_left{
+    width:100%;
+}
+
+.whoweare .whoweare_left h2{
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding: 3rem;
+   }
+
+.whoweare .whoweare_left h2 span{
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.whoweare .whoweare_left .whoweare_left_text p{
+    color: #ffffff;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 194.444% */
+    padding-left: 2rem;
+    margin-top: 28px;
+}
+
+.whoweare .whoweare_right{
+    padding: 3rem;
+    width:100%;
+    background-image: url("../../images/home/whoweare/bg_whoweare.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.whoweare .whoweare_right img{
+    width:100%;
+    border-radius:50%;
+}
+
+/*Our client*/
+
+.ourclient{
+    padding: 3rem 10px;
+}
+
+.ourclient .top_part{
+    text-align: center;
+}
+
+.ourclient .top_part p{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/* Our client*/
+
+.client_rev{
+    padding: 2rem 0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+}
+
+.client_rev .client_card{
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding:30px;
+}
+
+.client_rev .revcard_textarea p{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+}
+
+.client_rev .revcard_topsection{
+    display: flex;
+    align-items: center;
+}
+
+.client_rev .revcard_topsection img{
+    width:90px;
+    width:90px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.client_rev .revcard_topsection .text_part h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
     font-weight: 700;
     line-height: 45px; /* 136.364% */
     
 }
 
-.client_star{
-    display:flex;
+.client_rev .revcard_topsection .text_part .star_part{
+    width:100%;
+    display:flex; 
+    justify-content: space-between;
 }
 
-.client_star h4{
+.client_rev .revcard_topsection .text_part{
+    width:75%;
+}
+
+.client_rev .revcard_topsection .text_part .star_part p{
     color: #1E1E1E;
-    font-size: 12px;
+    font-family: Rubik; 
+    font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 45px; 
-}
-
-.client_star img{
-    height:20px;
-    width:20px;
-    margin-top: 11px;
-    margin-left: 25px;
-}
-
-.client_msg{
-    color: #1E1E1E;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 15px; 
+    line-height: 15px; /* 225% */
 }

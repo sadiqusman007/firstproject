@@ -13,7 +13,7 @@ body{
 }
 
 .page_width{
-  width: 1250px; 
+  max-width: 1250px; 
   margin:auto;
 }
 
